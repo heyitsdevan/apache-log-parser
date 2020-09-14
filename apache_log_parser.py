@@ -11,8 +11,8 @@ import re
 import csv
 from collections import Counter
 
-# Put file in same directory as this script
-filename = "log.txt"
+# Enter filename here
+filename = ""
 
 def reader(filename):
     with open(filename) as f:
